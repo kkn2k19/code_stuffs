@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class bill_3_item_float_18%tax {
+public class bill_3_item_float_18tax {
   public static void main (String args []){
     System.out.println("Provide the prices of all items : ");
     Scanner sc = new Scanner (System.in);
