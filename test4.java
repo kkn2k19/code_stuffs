@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class test3 {
+public class test4 {
     public static void main(String args[]) {
         int x = 200, y = 50, z = 100;
         if (x > y && y < z) {
