@@ -2,6 +2,5 @@
 
 void main(){
         int marks = 67;
-        String rc = (marks >= 33) ? "Pass" : "Fail";
-        printf(rc);
+        char rc =(marks >= 33) ? printf("Pass") : printf("Fail");
 }
