@@ -7,7 +7,7 @@ public class days_of_week{
     int n = sc.nextInt();
     
     switch (n){
-        cas1 1 : System.out.println("Monday.\n");
+        case 1 : System.out.println("Monday.\n");
         break;
         case 2: System.out.println("Tuesday.\n");
         break;
