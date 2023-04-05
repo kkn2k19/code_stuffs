@@ -7,7 +7,7 @@ void main (){
     printf("Provide num2 : ");
     scanf("%d", &num2);
     printf("select the operator : ");
-    scanf("%c", &operator) // character is scanned like this only as it doesnot have next.Char()
+    scanf("%c", &operator); // character is scanned like this only as it doesnot have next.Char()
                                              // syntax.
 
         switch (operator) {
