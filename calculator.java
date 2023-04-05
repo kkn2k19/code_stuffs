@@ -8,4 +8,22 @@ public class calculator{
     System.out.println("Provide num2 : ");
     int b = sc.nextInt();
     System.out.println("select the operator : ");
-    char operator = sc.next().CharAt(0);
+    char operator = sc.next().CharAt(0);     //character is scanned like this only as it doesnot have next.Char() syntax.
+    
+    switch (operator){
+        Case '+' : System.out.println(a+b);
+        break;
+        Case '-': System.out.println(a-b);
+        break;
+        Case '*' : System.out.println(a*b);
+        break;
+        Case '/' : System.out.println(a/b);
+        break;
+        Case '%' : System.out.println(a%b);
+        break;
+      default: System.out.println ("Wrong Operator.");
+    }
+  }
+}
+
+    
