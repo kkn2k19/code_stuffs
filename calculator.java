@@ -8,4 +8,4 @@ public class calculator{
     System.out.println("Provide num2 : ");
     int b = sc.nextInt();
     System.out.println("select the operator : ");
-    char operator = sc.next().Char(0);
+    char operator = sc.next().CharAt(0);
